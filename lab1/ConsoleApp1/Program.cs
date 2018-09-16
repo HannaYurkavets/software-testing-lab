@@ -144,7 +144,7 @@ namespace ConsoleApp1
                 Surname = "Holmes",
                 Group = 2,
             };
-            student3.Set("ZI", 9);
+            student3.Set("ZI", 7);
             student3.Set("SP", 7);
             student3.Set("RIS", 8);
             student3.Set("MIOPIS", 9);
