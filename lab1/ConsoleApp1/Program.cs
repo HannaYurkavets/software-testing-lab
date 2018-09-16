@@ -153,7 +153,7 @@ namespace ConsoleApp1
             Student student4 = new Student
             {
                 Name = "Jon",
-                Surname = "Watson",
+                Surname = "Milton",
                 Group = 2,
             };
             student4.Set("ZI", 8);
