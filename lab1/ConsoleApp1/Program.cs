@@ -132,7 +132,7 @@ namespace ConsoleApp1
                 Surname = "Ilya",
                 Group = 2,
             };
-            student2.Set("ZI", 4);
+            student2.Set("ZI", 5);
             student2.Set("SP", 9);
             student2.Set("RIS", 8);
             student2.Set("MIOPIS", 4);
