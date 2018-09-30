@@ -1,0 +1,10 @@
+D:\UCH\4course\1sem\QA\lab1\ConsoleApp1\software-testing-lab\lab3\lab3unit\bin\Debug\lab3unit.exe.config
+D:\UCH\4course\1sem\QA\lab1\ConsoleApp1\software-testing-lab\lab3\lab3unit\bin\Debug\lab3unit.exe
+D:\UCH\4course\1sem\QA\lab1\ConsoleApp1\software-testing-lab\lab3\lab3unit\bin\Debug\lab3unit.pdb
+D:\UCH\4course\1sem\QA\lab1\ConsoleApp1\software-testing-lab\lab3\lab3unit\bin\Debug\nunit.framework.dll
+D:\UCH\4course\1sem\QA\lab1\ConsoleApp1\software-testing-lab\lab3\lab3unit\bin\Debug\nunit.framework.pdb
+D:\UCH\4course\1sem\QA\lab1\ConsoleApp1\software-testing-lab\lab3\lab3unit\bin\Debug\nunit.framework.xml
+D:\UCH\4course\1sem\QA\lab1\ConsoleApp1\software-testing-lab\lab3\lab3unit\obj\Debug\lab3.csproj.CoreCompileInputs.cache
+D:\UCH\4course\1sem\QA\lab1\ConsoleApp1\software-testing-lab\lab3\lab3unit\obj\Debug\lab3.csproj.CopyComplete
+D:\UCH\4course\1sem\QA\lab1\ConsoleApp1\software-testing-lab\lab3\lab3unit\obj\Debug\lab3unit.exe
+D:\UCH\4course\1sem\QA\lab1\ConsoleApp1\software-testing-lab\lab3\lab3unit\obj\Debug\lab3unit.pdb

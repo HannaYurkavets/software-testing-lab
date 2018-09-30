@@ -1,0 +1,11 @@
+C:\Users\jekam\source\repos\lab3unit\lab3unit\bin\Debug\lab3unit.exe.config
+C:\Users\jekam\source\repos\lab3unit\lab3unit\bin\Debug\lab3unit.exe
+C:\Users\jekam\source\repos\lab3unit\lab3unit\bin\Debug\lab3unit.pdb
+C:\Users\jekam\source\repos\lab3unit\lab3unit\obj\Debug\lab3unit.csprojAssemblyReference.cache
+C:\Users\jekam\source\repos\lab3unit\lab3unit\obj\Debug\lab3unit.csproj.CoreCompileInputs.cache
+C:\Users\jekam\source\repos\lab3unit\lab3unit\obj\Debug\lab3unit.exe
+C:\Users\jekam\source\repos\lab3unit\lab3unit\obj\Debug\lab3unit.pdb
+C:\Users\jekam\source\repos\lab3unit\lab3unit\bin\Debug\nunit.framework.dll
+C:\Users\jekam\source\repos\lab3unit\lab3unit\bin\Debug\nunit.framework.pdb
+C:\Users\jekam\source\repos\lab3unit\lab3unit\bin\Debug\nunit.framework.xml
+C:\Users\jekam\source\repos\lab3unit\lab3unit\obj\Debug\lab3unit.csproj.CopyComplete
