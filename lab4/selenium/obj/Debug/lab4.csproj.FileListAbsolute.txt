@@ -1,0 +1,13 @@
+D:\software_testing-master\selenium\selenium\bin\Debug\selenium.exe.config
+D:\software_testing-master\selenium\selenium\bin\Debug\selenium.exe
+D:\software_testing-master\selenium\selenium\bin\Debug\selenium.pdb
+D:\software_testing-master\selenium\selenium\bin\Debug\nunit.framework.dll
+D:\software_testing-master\selenium\selenium\bin\Debug\WebDriver.dll
+D:\software_testing-master\selenium\selenium\bin\Debug\nunit.framework.pdb
+D:\software_testing-master\selenium\selenium\bin\Debug\nunit.framework.xml
+D:\software_testing-master\selenium\selenium\bin\Debug\WebDriver.xml
+D:\software_testing-master\selenium\selenium\obj\Debug\lab4.csproj.CoreCompileInputs.cache
+D:\software_testing-master\selenium\selenium\obj\Debug\lab4.csproj.CopyComplete
+D:\software_testing-master\selenium\selenium\obj\Debug\selenium.exe
+D:\software_testing-master\selenium\selenium\obj\Debug\selenium.pdb
+D:\software_testing-master\selenium\selenium\obj\Debug\lab4.csprojAssemblyReference.cache
