@@ -1,43 +1,52 @@
 using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NUnit.Framework;
-using OpenQA.Selenium;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
+using System.Threading;
 
 namespace selenium
 {
-    [TestFixture]
-    class Selenium
+    [TestClass]
+    public class UnitTest1
     {
+        IWebDriver chrome = new ChromeDriver(@"D:\UCH\4course\1sem\QA\lab1\ConsoleApp1\software-testing-lab\lab4\selenium\bin\Debug");
 
-        private const string url = "https://avia.tutu.ru/";
-
-        [Test]
-        static void Main(string[] args)
+        [TestMethod]
+        public void TestMethod1()
         {
+
+            chrome.Navigate().GoToUrl("https://avia.tutu.ru/");
+
+            chrome.FindElement(By.XPath(@"/html/body/div[1]/div/div[3]/div/div[2]/div[1]/div[1]/input")).SendKeys("Минск (Белоруссия)");
+
+            chrome.FindElement(By.XPath(@"/html/body/div[1]/div/div[3]/div/div[2]/div[3]/div[1]/input")).SendKeys("Лондон (Великобритания)");
+
+            chrome.FindElement(By.Name(@"date_from")).SendKeys("28.10.2018");
+
+            chrome.FindElement(By.XPath(@"/html/body/div[1]/div/div[3]/div/div[2]/div[7]/button/span/span[3]")).Click();
+
+
+            bool actual = false;
+            Thread.Sleep(500);
             try
-            { 
-                IWebDriver chrome = new ChromeDriver();
-                chrome.Url = url;
-                chrome.FindElement(By.Name("city_from")).SendKeys("Минск (Белоруссия)");
-                chrome.FindElement(By.Name("city_to")).SendKeys("Лондон(Великобритания)");
-                chrome.FindElement(By.Name("date_from")).SendKeys("14.10.2018");
-                chrome.FindElement(By.Name("date_back")).SendKeys("14.11.2018");
-                chrome.FindElement(By.ClassName("b-button_block")).Click();
-                ReadOnlyCollection<IWebElement> h5elements = chrome.FindElements(By.TagName("h5"));
-                foreach (var h5 in h5elements)
-                {
-                    Assert.AreNotEqual(h5.Text.ToLower(), "Return".ToLower());
-                }
-            }
-            catch (NoSuchElementException exc)
             {
-                Console.WriteLine(exc.Message);
+                
+                chrome.FindElement(By.XPath("/html/body/div[2]/div[6]/div[1]/div[2]/div[4]/div[9]"));
+               
             }
+            catch (Exception)
+            {
+                actual = true;
+            }
+
+            Assert.AreEqual(true, actual);
+
+        }
+        [TestCleanup]
+        public void TearDown()
+        {
+            chrome.Quit();
         }
     }
 }
