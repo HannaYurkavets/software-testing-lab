@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleTest", "lab3unit\TriangleTest.csproj", "{5BA15F82-F0E8-49A0-BE44-5C5B0DF056F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckForTriangle", "lab3unit\CheckForTriangle.csproj", "{5BA15F82-F0E8-49A0-BE44-5C5B0DF056F5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrianglePossibilityTest", "UnitTestProject1\TrianglePossibilityTest.csproj", "{19241027-1F38-459E-9E49-F2660BAB118A}"
 EndProject

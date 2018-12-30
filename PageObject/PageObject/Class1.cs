@@ -16,7 +16,7 @@ namespace PageObject
         [TestInitialize]
         public void SetupTest()
         {
-            this.Driver = new ChromeDriver(@"D:\UCH\4course\1sem\QA\lab1\ConsoleApp1\software-testing-lab\WebDriver\selenium\bin\Debug");
+            this.Driver = new ChromeDriver(@"D:\UCH\4course\1sem\QA\lab1\ConsoleApp1\software-testing-lab\SeleniumWebDriver\SeleniumWebDriver\bin\Debug");
             this.Wait = new WebDriverWait(this.Driver, TimeSpan.FromSeconds(30));
         }
 

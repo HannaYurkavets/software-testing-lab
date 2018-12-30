@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\lab3unit\TriangleTest.csproj">
+    <ProjectReference Include="..\lab3unit\CheckForTriangle.csproj">
       <Project>{5ba15f82-f0e8-49a0-be44-5c5b0df056f5}</Project>
-      <Name>TriangleTest</Name>
+      <Name>CheckForTriangle</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

@@ -10,7 +10,7 @@ namespace SeleniumWebDriver
     [TestClass]
     public class UnitTest1
     {
-        IWebDriver chrome = new ChromeDriver(@"D:\UCH\4course\1sem\QA\lab1\ConsoleApp1\software-testing-lab\lab4\selenium\bin\Debug");
+        IWebDriver chrome = new ChromeDriver(@"D:\UCH\4course\1sem\QA\lab1\ConsoleApp1\software-testing-lab\SeleniumWebDriver\SeleniumWebDriver\bin\Debug");
 
         [TestMethod]
         public void TestMethod1()
@@ -22,7 +22,7 @@ namespace SeleniumWebDriver
 
             chrome.FindElement(By.XPath(@"/html/body/div[1]/div/div[3]/div/div[2]/div[3]/div[1]/input")).SendKeys("Лондон (Великобритания)");
 
-            chrome.FindElement(By.Name(@"date_from")).SendKeys("28.10.2018");
+            chrome.FindElement(By.Name(@"date_from")).SendKeys("18.11.2018");
 
             chrome.FindElement(By.XPath(@"/html/body/div[1]/div/div[3]/div/div[2]/div[7]/button/span/span[3]")).Click();
 
