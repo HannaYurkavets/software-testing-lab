@@ -24,7 +24,7 @@ namespace FrameworkStep2.Pages
         [FindsBy(How = How.XPath, Using = "//input[@name='changeability']")]
         public IWebElement ExchangeIsPossible { get; set; }
 
-        [FindsBy(How = How.XPath, Using = "//input[@name='refundability']")]
+        [FindsBy(How = How.XPath, Using = "/html/body/div[2]/div[5]/div[1]/div[1]/div[2]/div[1]/ul/li[1]/label/div/div[1]/span[1]")]
         public IWebElement ReturnIsPossible { get; set; }
 
         [FindsBy(How = How.XPath, Using = "/html/body/div[2]/div[5]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]")]

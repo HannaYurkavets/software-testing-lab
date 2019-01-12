@@ -51,7 +51,7 @@ namespace FrameworkStep2.Tests
             steps.SelectDepartDate().SendKeys(departDay);
             steps.SelectDepartDate().SendKeys(Keys.Enter);
             var departDate = steps.GetDepartureDateValue();
-            var expectedDate = DateTime.Now.Day.ToString() +"."+ DateTime.Now.Month.ToString()+"." + DateTime.Now.Year.ToString();
+            var expectedDate = DateTime.Now.Day.ToString() +"."+"0"+ DateTime.Now.Month.ToString()+"." + DateTime.Now.Year.ToString();
             Assert.AreEqual(departDate, expectedDate);
         }
 
@@ -117,7 +117,7 @@ namespace FrameworkStep2.Tests
             steps.SelectDepartDate().SendKeys(departDay);
             steps.FindResults();
             steps.OpenResultPage();
-
+            
             var fromCityResult = steps.GetFromCity();
             var toCityResult = steps.GetToCity();
 
@@ -128,7 +128,7 @@ namespace FrameworkStep2.Tests
         public void ApplyBaggageIsEnabledTest()
         {
             ResultFlightsTest();
-
+            
             steps.ApplyBaggageIsEnabled();
             Assert.IsTrue(steps.GetButtonOrder().Displayed);
         }
