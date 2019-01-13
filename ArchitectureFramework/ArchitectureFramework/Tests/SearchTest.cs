@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
+using Assert = NUnit.Framework.Assert;
 
 namespace ArchitectureFramework.Tests
 {
@@ -13,7 +14,7 @@ namespace ArchitectureFramework.Tests
         private Steps.Steps steps = new Steps.Steps();
         private string departureFrom = "Минск (Белоруссия)";
         private string departureTo = "Лондон (Великобритания)";
-        private string dateDepartureFrom = "20.11.2018";
+        private string dateDepartureFrom = "20.02.2019";
 
         [SetUp]
         public void Init()
@@ -31,7 +32,9 @@ namespace ArchitectureFramework.Tests
         public void Search()
         {
             steps.SearchTickets(departureFrom,departureTo,dateDepartureFrom);
+            Assert.IsTrue(steps.GetButtonOrder().Displayed);
         }
 
+        static void Main(string[] args) { }
     }
 }

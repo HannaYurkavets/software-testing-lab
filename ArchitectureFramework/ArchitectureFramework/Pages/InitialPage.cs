@@ -20,16 +20,16 @@ namespace ArchitectureFramework.Pages
             PageFactory.InitElements(this.driver, this);
         }
 
-        [FindsBy(How = How.XPath, Using = "/html/body/div[1]/div/div[3]/div/div[2]/div[1]/div[1]/input")]
+        [FindsBy(How = How.Name,   Using = "city_from")]
         private IWebElement from;
 
-        [FindsBy(How = How.XPath, Using = "/html/body/div[1]/div/div[3]/div/div[2]/div[3]/div[1]/input")]
+        [FindsBy(How = How.XPath, Using = "city_to")]
         public IWebElement to;
 
         [FindsBy(How = How.Name, Using = "date_from")]
         public IWebElement dateFrom;
 
-        [FindsBy(How = How.XPath, Using = "/html/body/div[1]/div/div[3]/div/div[2]/div[7]/button/span/span[3]")]
+        [FindsBy(How = How.XPath, Using = "/html/body/div[1]/div/div[2]/div/div[2]/div[7]/button/span/span[3]")]
         public IWebElement buttonSearch;
 
         public void OpenPage()
